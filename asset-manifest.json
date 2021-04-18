@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lorem-Ipsum/static/css/main.2e8462de.chunk.css",
-    "main.js": "/lorem-Ipsum/static/js/main.9ff69174.chunk.js",
-    "main.js.map": "/lorem-Ipsum/static/js/main.9ff69174.chunk.js.map",
+    "main.js": "/lorem-Ipsum/static/js/main.c9b62502.chunk.js",
+    "main.js.map": "/lorem-Ipsum/static/js/main.c9b62502.chunk.js.map",
     "runtime-main.js": "/lorem-Ipsum/static/js/runtime-main.8b70599c.js",
     "runtime-main.js.map": "/lorem-Ipsum/static/js/runtime-main.8b70599c.js.map",
     "static/js/2.653ab56d.chunk.js": "/lorem-Ipsum/static/js/2.653ab56d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8b70599c.js",
     "static/js/2.653ab56d.chunk.js",
     "static/css/main.2e8462de.chunk.css",
-    "static/js/main.9ff69174.chunk.js"
+    "static/js/main.c9b62502.chunk.js"
   ]
 }
