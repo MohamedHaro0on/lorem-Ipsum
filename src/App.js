@@ -3,27 +3,31 @@ import data from "./data";
 import { useState } from "react";
 
 
-function App() {
+const App = () => {
 
   const [amount, setAmount] = useState(0);
   const [text, setText] = useState([]);
+
+
   const AmountHandler = ({ target: { value } }) => {
     if (value >= 0) {
       setAmount(value);
     }
   }
+
   const SubmitHandler = (e) => {
     e.preventDefault();
     let newText = data.slice(0, amount);
     setText(newText);
   }
+
   return (
-    <main className = "Container">
-      <h1 className = "Heading"> tired of boring lorem ipsum ?</h1>
+    <main className="Container">
+      <h1 className="Heading"> tired of boring lorem ipsum ?</h1>
       <form onSubmit={(e) => SubmitHandler(e)}>
         <div className="FormGroup">
-          <label>Pargraphs :</label>
-          <input onChange={(e) => AmountHandler(e)} value={amount} type="number" name="amount" />
+          <label htmlFor="amount">Pargraphs :</label>
+          <input id="amount" onChange={(e) => AmountHandler(e)} value={amount} type="number" name="amount" />
           <input type="submit" value="genarate" className="SubmitButton" />
         </div>
       </form>
